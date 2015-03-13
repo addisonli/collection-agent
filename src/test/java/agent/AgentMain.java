@@ -17,6 +17,12 @@ public class AgentMain {
             System.out.println(n);
             map.put(String.valueOf(n), String.valueOf(n));
         }
+
+        Map<String,String> map1  = new HashMap<String, String>();
+        for(int n =1;n<1002;n++){
+            System.out.println(n);
+            map.put(String.valueOf(n), String.valueOf(n));
+        }
         System.out.print("test finish.");
 
 
